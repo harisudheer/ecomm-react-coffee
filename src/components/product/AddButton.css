@@ -1,5 +1,5 @@
 .AddButton-button {
-    /* background-color: silver; */
+    background-color: green; 
     padding:0px;
     width:130px;
     margin-top: 0px;
@@ -11,7 +11,7 @@
     width:50px;
     margin-top: 0px;
     text-align: center;
-    color:white
+    color:green;
 }
 
 .Txtbox{
