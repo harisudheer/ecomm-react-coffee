@@ -28,13 +28,13 @@ function App() {
               <Navbar />
               <hr></hr>
               <Routes>
-                <Route path={`${PATH}/`} index element={<Cart/>} />
+                <Route path={`${PATH}/`} index element={<Cart />} />
                 <Route path={`${PATH}/order`} element={<Orders />} />
                 <Route path={`${PATH}/Products`} element={<Products/>} />
               </Routes>
               <Footer />
-            </Router>
-          </AppContextProvider>
+            </Router> 
+          </AppContextProvider> 
         )}
       </UserContext.Provider>
     </div>
