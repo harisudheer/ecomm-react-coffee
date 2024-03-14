@@ -90,10 +90,10 @@ export default function Cart() {
             </table>
           </div>
           <div className="Cart-div-right">
-            <div className="Cart-order-value">Order Value: ₹{orderValue}</div>
+            <div className="Cart-order-value">Cart item: ₹{orderValue}</div>
             <div className="Cart-order-value">
               <button onClick={submitOrder} className="Cart-place-order">
-                Submit Order
+                Proceed to Buy
               </button>
             </div>
           </div>

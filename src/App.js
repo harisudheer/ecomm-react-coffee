@@ -20,9 +20,9 @@ function App() {
   return (
     <div className="App">
       <UserContext.Provider value={val}>
-        {flag === 0 || flag === 1 ? (
+        {/* {flag === 0 || flag === 1 ? (
           <Login />
-        ) : (
+        ) : ( */}
           <AppContextProvider>
             <Router>
               <Navbar />
