@@ -28,9 +28,9 @@ function App() {
               <Navbar />
               <hr></hr>
               <Routes>
-                <Route path={`${PATH}/`} index element={<Cart />} />
+                <Route path={`${PATH}/`} index element={<Products />} />
                 <Route path={`${PATH}/order`} element={<Orders />} />
-                <Route path={`${PATH}/Products`} element={<Products/>} />
+                <Route path={`${PATH}/cart`} element={<Cartt/>} />
               </Routes>
               <Footer />
             </Router> 
