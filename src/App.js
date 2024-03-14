@@ -35,7 +35,7 @@ function App() {
               <Footer />
             </Router> 
           </AppContextProvider> 
-        )}
+        {/* )} */}
       </UserContext.Provider>
     </div>
   );
