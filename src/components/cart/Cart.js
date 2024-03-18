@@ -48,6 +48,7 @@ export default function Cart() {
             <table className="Cart-table">
               <thead>
                 <tr>
+                  <th>Images</th>
                   <th>Item</th>
                   <th>Price</th>
                   <th>Quantity</th>
@@ -60,6 +61,7 @@ export default function Cart() {
                   if (cartQuantity > 0) {
                     return (
                       <tr key={product.id} className="Cart-items">
+                        <td className="cart-item-image">{product.image}</td>
                         <td className="Cart-item-name">{product.name}</td>
                         <td className="Cart-item-cells">₹{product.price}</td>
                         <td className="Cart-item-buttons">
